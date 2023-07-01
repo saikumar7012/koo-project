@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,600;1,6..12,300&family=Roboto+Condensed:ital,wght@1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Nunito Sans, sans-serif;
+    box-sizing: border-box;
+}
+
+:root{
+--primary-color :#fdc004;
+--secondary-color :#1f1f1f;
+--button-color: #e6bf16;
+--header-color: #e6bf16a9;
+}
+nav{
+    height: 10vh;
+    background-color: var(--primary-color);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px calc(100vw - 1300px) / 2;
+}
+
+.logo > img{
+width: 50px;  
+display: inline;
+
+  
+}
+.logo {
+    
+    color: var(-secondary-color);
+    font-size: 15px;
+    font-weight: bold;
+    font-style: itali
+}
+    .logo > img {
+
+ 
+     width: 50px; 
+     display: inline;
+
+ }
+    
+    .logo h1{
+    
+    display: inline;
+     font-size: 40px;
+    color: rgb(95, 91, 91);
+ 
+    
+    }
+
+    .nav-items a{
+    text-decoration: none;
+    color: var(-secondary-color);
+    padding: 0 1.5rem;
+    
+    
+    }
+    
+    .nav-items a:hover { 
+    color : #fff;
+    transition: 0.25;
+ }
+
+ .hero{
+ background: var(--primary-color);
+ }
+
+.hero-container{
+
+display: grid;
+grid-template-columns: 1fr 1fr;
+height: 90vh;
+padding: 0px calc((100vw - 1300px) / 2);
+
+.column-left{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+color: var(--secondary-color);
+padding: 0rem 2rem;
+}
+    
+.column-left hi{
+     margin-bottom: 1rem;
+     font-size: 3rem;
+  }
+ .column-left p{
+        
+     margin-bottom: 2rem;   
+     font-size: 1.5rem;
+     line-height: 1.5;
+        
+  }
+        
+    
+ .column-left button{ 
+     padding: 1rem 3rem; 
+     border-radius: 50px;   
+     font-size: 1rem; 
+     font-weight: 600;   
+     border: none;
+     color: var(--primary-color);
+     background: #000000; 
+     cursor: pointer; 
+     border: 1px solid var(-secondary-color);
+     border: 1px solid var(--secondary-color);
+ }
+ 
+ .column-left button:hover {
+    
+     background: #cbedec; 
+     color: var(-secondary-color);
+     border: 1px solid var(-secondary-color);
+     transition: ease-in-out 0.2s;
+
+}
+
+.column-right {
+
+display: flex;
+justify-content: center;
+align-self: center; 
+padding: Orem 2rem;
+
+}
+
